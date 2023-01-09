@@ -20,7 +20,7 @@ public class BaseClass {
 	public static ExtentTest logger;
 	public static CommonFunctions commFunc = new CommonFunctions();;
 	public static BrowserFactory browserSelect = new BrowserFactory();
-	public static SoftAssert softAssert = new SoftAssert();
+	//public static SoftAssert softAssert = new SoftAssert();
 	public static Signup_Objectpage sign = new Signup_Objectpage();
 	public static Login_ObjectPage login = new Login_ObjectPage();
 	

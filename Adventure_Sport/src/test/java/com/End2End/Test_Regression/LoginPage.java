@@ -17,6 +17,7 @@ public class LoginPage extends BaseClass {
 	}
 
 	@Test(testName = "Missing passwordinfo",priority = 10,enabled= true)
+	
 	public void missingEmail() {
 		driver.navigate().refresh();
 		System.out.println("//For valid email and blanked password....");
