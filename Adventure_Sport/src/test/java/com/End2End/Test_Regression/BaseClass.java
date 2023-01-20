@@ -7,6 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
 import com.End2End.PagesObjects.Login_ObjectPage;
+import com.End2End.PagesObjects.Question_ObjectPage;
 import com.End2End.PagesObjects.Signup_Objectpage;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -23,6 +24,7 @@ public class BaseClass {
 	//public static SoftAssert softAssert = new SoftAssert();
 	public static Signup_Objectpage sign = new Signup_Objectpage();
 	public static Login_ObjectPage login = new Login_ObjectPage();
+	public static Question_ObjectPage ques = new Question_ObjectPage();
 	
 	@Parameters({"enviroment"})
 	@BeforeSuite(description = "initializing Driver", alwaysRun= true)

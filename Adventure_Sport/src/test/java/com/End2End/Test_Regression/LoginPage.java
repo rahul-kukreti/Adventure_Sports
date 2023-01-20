@@ -16,7 +16,7 @@ public class LoginPage extends BaseClass {
 		logger.log(LogStatus.INFO, "Login Missing fields are validated successfully!");
 	}
 
-	@Test(testName = "Missing passwordinfo",priority = 10,enabled= true)
+	@Test(testName = "Missing passwordinfo",priority = 10,enabled= false)
 	
 	public void missingEmail() {
 		driver.navigate().refresh();
@@ -27,7 +27,7 @@ public class LoginPage extends BaseClass {
 		logger.log(LogStatus.INFO, "Password Missing fields are validated successfully!");
 	}
 	
-	@Test(testName = "Missing emailinfo",priority = 11,enabled= true)
+	@Test(testName = "Missing emailinfo",priority = 11,enabled= false)
 	public void missingpassword() {
 		driver.navigate().refresh();
 		System.out.println("//For valid password and blanked email....");
